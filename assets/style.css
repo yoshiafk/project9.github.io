@@ -136,6 +136,10 @@ header {
     width: 20%;
 }
 
+.image:hover {
+  transform: scale(2.2);
+}
+
 footer img {
     width: 125px;
 }
