@@ -133,11 +133,12 @@ header {
 }
 
 .image {
-    width: 20%;
+  width: 19%;
+  transition: transform 0.2s;
 }
 
 .image:hover {
-  transform: scale(2.2);
+  transform: scale(1.75);
 }
 
 footer img {
