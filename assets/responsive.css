@@ -1,4 +1,36 @@
-@media screen and (max-width:960px) {
+@media screen and (max-width:1000px) {
+    .heading-bali {
+        width: 75%;
+    }
+
+    .bali {
+        width: 50%;
+    }
+
+    .bali-icon img {
+        width: 100%;
+    }
+
+    .bali h1 {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .bali h2 {
+        margin-right: 60px;
+        margin-bottom: 40px;
+        margin-left: 0px;
+    }
+
+    .btn-bali {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .heading-bali h2 {
+        margin-left: 200px;
+    }
+
     .footer-container {
         max-width: 600px;
     }
@@ -31,10 +63,127 @@
 }
 
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:670px) {
     .btn {
         margin: 0;
         width: 100%;
         margin-top: 20px;
+        align-items: center;
+    }
+
+    .explore {
+        align-items: center;
+    }
+
+    .top-wrapper h1 {
+        font-size: 45px;
+        letter-spacing: 20px;
+    }
+
+    .city {
+        width: 100%;
+    }
+
+    .city-icon img {
+        width: 75%;
+    }
+
+    .city h1 {
+        text-align: center;
+    }
+
+    .city h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .btn {
+        margin-left: 75px;
+    }
+
+    .image {
+        width: 50%;
+    }
+
+    .bali {
+        width: 100%;
+    }
+
+    .bali-icon img {
+        width: 75%;
+    }
+
+    .bali h1 {
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .bali h2 {
+        line-height: 20px;
+        margin-left: 20px;
+    }
+
+    .heading-bali h2 {
+        padding-top: 120px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .container {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .container .logo {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+    }
+
+    .container .navbar {
+        -webkit-box-flex: 0;
+        -ms-flex: 0;
+        flex: 0;
+    }
+
+    .container .navbar ul {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        position: fixed;
+        left: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        background: rgb(255, 255, 255);
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        -webkit-transition: left .3s;
+        -o-transition: left .3s;
+        transition: left .3s;
+    }
+
+    .container .navbar ul li a {
+        padding: 10px;
+        font-size: 16px;
+        height: auto;
+        line-height: normal;
+        color: #f9002f;
+    }
+
+    .container .navbar ul .close {
+        display: block;
+    }
+
+    .container .navbar .icon-bar {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .container .navbar ._Menus-show {
+        left: 0;
     }
 }
